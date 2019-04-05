@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./image/garden.jpg');
+  background-size: cover;
+  color: rgb(211, 193, 193);
+
+}
+
+.App-header {
+  background-color: rgba(75, 82, 76, 0.801);
+  min-height: 70px;
+  padding: 20px;
+  color: rgb(211, 193, 193);
+}
+#formId{
+  background-color:  rgba(75, 82, 76, 0.801);
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.flex-container {
+  display: flex;
+}
